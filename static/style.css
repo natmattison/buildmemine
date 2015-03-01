@@ -107,3 +107,15 @@ body h1 h2 h3 h4 h5 p div{
 .header-line {
   background-color: #FFED18;
 }
+
+.row img {
+  margin: 30px 0px;
+}
+
+/*.row {
+  margin: 20px 0px;
+}
+
+.footer {
+  margin: 30px;
+}*/
