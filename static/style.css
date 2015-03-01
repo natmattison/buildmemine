@@ -11,13 +11,13 @@ body h1 h2 h3 h4 h5 p div{
 
 .header h1{
   font-size: 27px !important;
-  color: #000;
+  color: #8d92f8;
   padding: 10px;
 }
 
 .title{
   padding:60px;
-  background-color: #eaeaea;
+  background-color: #ff9218;
 }
 
 .title .wrapper{
@@ -26,14 +26,14 @@ body h1 h2 h3 h4 h5 p div{
 }
 
 .title h2{
-  color: #000;
+  color: #fefdd5;
   font:normal 36px;
   margin-bottom: 40px;
 }
 
 .title h4{
   font-size: 18px normal;
-  color: #9a9a9a;
+  color: #fefdd5;
   margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@ body h1 h2 h3 h4 h5 p div{
  .mid-section h4{
   font: normal 18px;
   margin: 20px 0;
-  color: #9a9a9a;
+  color: #8d92f8;
  }
 
  .mid-section .or{
@@ -60,14 +60,22 @@ body h1 h2 h3 h4 h5 p div{
   color: #000;
   font-size: 18px;
   margin: 15px;
+  width:220px;
 }
+
+.mid-section button:hover{
+
+  background-color:#8d92f8;
+  color:#fff;
+}
+
 
 .btn-row {
   margin: 10px;
 }
 
 .mid-section {
-  background-color: rgb(235, 235, 235);
+  background-color: #f4f3d4;
   text-align: center;
   padding: 20px;
 }
@@ -86,6 +94,8 @@ body h1 h2 h3 h4 h5 p div{
   margin-bottom: 20px;
 }
 
+.submitBtn{display:inline-block; height:65px; width:200px; padding:15px; text-align: center; color: #fff; background-color: #8d92f8; border:1px solid #999; font-size:22px;}
+.submitBtn:hover{text-decoration: none; color: #000; background-color: #fff; }
 .business_name{
   font: bold 27px;
   color: #999;
