@@ -8,7 +8,10 @@ Buildmemine::Application.routes.draw do
   # root 'welcome#index'
 
   # Example of regular route:
-    get '/' => 'request#index'
+  get '/' => 'request#index'
+  post '/request' => 'request#create'
+  post '/create_template' => 'request#create_template'
+  get '/templates' => 'requests#get_templates'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
