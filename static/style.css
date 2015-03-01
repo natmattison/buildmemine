@@ -1,7 +1,62 @@
-.jumbotron {
-  padding: 40px;
-  background-color: #B1E5FD;
-  text-align: center;
+body h1 h2 h3 h4 h5 p div{
+  font-family: arial, helvetica !important;
+}
+
+
+.header {
+  padding: 10px;
+  background-color: #fff;
+  text-align: left !important; 
+}
+
+.header h1{
+  font-size: 27px !important;
+  color: #000;
+  padding: 10px;
+}
+
+.title{
+  padding:60px;
+  background-color: #eaeaea;
+}
+
+.title .wrapper{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.title h2{
+  color: #000;
+  font:normal 36px;
+  margin-bottom: 40px;
+}
+
+.title h4{
+  font-size: 18px normal;
+  color: #9a9a9a;
+  margin-bottom: 20px;
+}
+
+.business .dropdown-menu{
+  width:500px;
+
+}
+ .mid-section h4{
+  font: normal 18px;
+  margin: 20px 0;
+  color: #9a9a9a;
+ }
+
+ .mid-section .or{
+  margin: 5px;
+  font-size: 18px;
+ }
+
+.mid-section button{
+  padding:15px;
+  color: #000;
+  font-size: 18px;
+  margin: 15px;
 }
 
 .btn-row {
@@ -15,7 +70,23 @@
 }
 
 .top-section {
+  margin:0 auto;
+  text-align: center;
+  
+  padding:15px;
+}
+.top-section form {width:900px !important; margin: 0 auto;}
 
+.top-section input {
+  font-size: 22px;
+  width:500px;
+  margin-bottom: 20px;
+}
+
+.business_name{
+  font: bold 27px;
+  color: #999;
+  margin-bottom: 20px;
 }
 
 .first-bottom {

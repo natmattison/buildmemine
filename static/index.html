@@ -9,23 +9,34 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="./stuff.js"></script>
 
-<div class="jumbotron">
-	<h1>Build Me Mine</h2>
-  <p>Curating the website making experience for mom and mom small businesses.</p>
-</div>
 <body>
+<header class="jumbotron header">
+  <h1>Build Me Mine</h1>
+</header>
 
+<div class="title">
+  <div class="wrapper">
+  <h2>Our Services</h2>
+    <h4>Curating the website making experience for mom and mom small businesses.</h4>
+
+  </div>
+
+
+
+</div>
 
 <div class="top-section">
 <form id="landing_form" enctype='application/json'>
-<p id="business_name">Business name:<br>
+<p class="business_name">Business name</p> 
 
-<input type="text" name="businessname">
+<input type="text" name="businessname" class="businessname">
+
+<p class="business_name">Type of business</p> 
   
 <!-- Single button -->
-<div class="btn-group">
+<div class="btn-group business">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-    Business Type <span class="caret"></span>
+    Select one<span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     <li><a href="#">Retail</a></li>
@@ -38,25 +49,25 @@
 <br>
 
 <div class="mid-section">
-<h3>What's the tone of your business?</h3>
+<h4 class="tone">What's the tone of your business?</h4>
   <div class="row btn-row">
     <button type="button" class="btn btn-default">Friendly</button>
-    or
+    <span class="or">or</span>
     <button type="button" class="btn btn-default">Badass</button>
   </div>
   <div class="row btn-row">
     <button type="button" class="btn btn-default">Calm</button>
-    or
+   <span class="or">or</span>
     <button type="button" class="btn btn-default">Dark</button>
   </div>
   <div class="row btn-row">
     <button type="button" class="btn btn-default">Sophisticated</button>
-    or
+    <span class="or">or</span>
     <button type="button" class="btn btn-default">Minimalist</button>
   </div>
   <div class="row btn-row">
     <button type="button" class="btn btn-default">Stylish</button>
-    or
+    <span class="or">or</span>
     <button type="button" class="btn btn-default">Clean</button>
   </div>
 </div>
