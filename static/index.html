@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 
 <html>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="./style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="./stuff.js"></script>
+
 <div class="jumbotron">
 	<h1>Build Me Mine</h2>
   <p>Curating the website making experience for mom and mom small businesses.</p>
@@ -8,17 +16,50 @@
 <body>
 
 
+<div class="top-section">
 <form id="landing_form" enctype='application/json'>
 <p id="business_name">Business name:<br>
+
 <input type="text" name="businessname">
+  
+<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Business Type <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Retail</a></li>
+    <li><a href="#">Restaurant</a></li>
+    <li><a href="#">Non-Profit</a></li>
+    <li><a href="#">Social Justice</a></li>
+  </ul>
+</div>
+</div>
 <br>
-<p id="business_type">Business type:</p><br>
-<select>
-	<option value="volvo">Retail</option>
-  <option value="food">Food</option>
-  <option value="politics">Politics</option>
-  <option value="audi">Auto</option>
-</select>
+
+<div class="mid-section">
+<h3>What's the tone of your business?</h3>
+  <div class="row btn-row">
+    <button type="button" class="btn btn-default">Friendly</button>
+    or
+    <button type="button" class="btn btn-default">Badass</button>
+  </div>
+  <div class="row btn-row">
+    <button type="button" class="btn btn-default">Calm</button>
+    or
+    <button type="button" class="btn btn-default">Dark</button>
+  </div>
+  <div class="row btn-row">
+    <button type="button" class="btn btn-default">Sophisticated</button>
+    or
+    <button type="button" class="btn btn-default">Minimalist</button>
+  </div>
+  <div class="row btn-row">
+    <button type="button" class="btn btn-default">Stylish</button>
+    or
+    <button type="button" class="btn btn-default">Clean</button>
+  </div>
+</div>
 <br>
 
 <p id="business_tone">What is the tone of your business?</p><br>
@@ -45,13 +86,6 @@
 <br>
 <input type="submit" value="Submit">
 </form>
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
-<link rel="stylesheet" href="./style.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="./stuff.js"></script>
 </body>
 
 </html> 

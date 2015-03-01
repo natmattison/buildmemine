@@ -1,3 +1,35 @@
 .jumbotron {
   padding: 40px;
+  background-color: #B1E5FD;
+  text-align: center;
+}
+
+.btn-row {
+  margin: 10px;
+}
+
+.mid-section {
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  padding: 20px;
+}
+
+.top-section {
+
+}
+
+.first-bottom {
+  background-color: #0086D4;
+}
+
+.second-bottom {
+  background-color: #00A7F7;
+}
+
+.bottom-bottom {
+  background-color: #9B9C9E;
+}
+
+.header-line {
+  background-color: #FFED18;
 }
