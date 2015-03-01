@@ -120,3 +120,7 @@ body h1 h2 h3 h4 h5 p div{
 .footer {
   margin: 20px 0px;
 }
+
+button a {
+  color: black;
+}
