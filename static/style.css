@@ -41,6 +41,9 @@ body h1 h2 h3 h4 h5 p div{
   width:500px;
 
 }
+
+.business .businessBtn{width:500px;}
+
  .mid-section h4{
   font: normal 18px;
   margin: 20px 0;
