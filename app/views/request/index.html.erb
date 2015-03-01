@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 
 <html>
-	<h2>Build Me Mine</h2>
+	<h1>Build Me Mine</h2>
 <body>
+<h2>About Us</h2>
+<p>Some text Some text Some text Some text Some text </p>
 
-<form enctype='application/json'>
-Business name:<br>
+<form id="landing_form" enctype='application/json'>
+<p id="business_name">Business name:<br>
 <input type="text" name="businessname">
 <br>
-Business type:<br>
+<p id="business_type">Business type:</p><br>
 <select>
 	<option value="volvo">Retail</option>
-  <option value="saab">Food</option>
-  <option value="mercedes">Politics</option>
-  <option value="audi">Audi</option>
+  <option value="food">Food</option>
+  <option value="politics">Politics</option>
+  <option value="audi">Auto</option>
 </select>
 <br>
-Location:<br>
-<input type="text" name="location">
-<br>
-Hours:<br>
-<input type="text" name="businesshours">
-<br>
-Phone number:<br>
-<input type="text" name="phonenumber">
-<br>
-What is the tone of your business?<br>
+
+<p id="business_tone">What is the tone of your business?</p><br>
 <br>
 <select>
   <option value="sophisticated">Sophisticated</option>
   <option value="friendly">Friendly</option>
   <option value="clean">Clean</option>
   <option value="badass">Badass</option>
-<option value="calm">Calm</option>
-<option value="hip">Hip</option>
-<option value="stylish">Stylish</option>
+	<option value="calm">Calm</option>
+	<option value="hip">Hip</option>
+	<option value="stylish">Stylish</option>
 </select>
 <br>
-Customers:
+
 <br>
-Ages: <br>
+<p id="customer_age"Ages: </p><br>
 <form action="">
 <input type="checkbox" name="young" value="Bike">18-24<br>
 <input type="checkbox" name="old" value="Car">25-35<br> 
@@ -51,13 +45,10 @@ Ages: <br>
 </form>
 
 
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 </body>
 
-</html>
+</html> 
