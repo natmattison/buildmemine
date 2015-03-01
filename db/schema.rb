@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150301000158) do
+ActiveRecord::Schema.define(version: 20150301000900) do
 
   create_table "criteria", force: true do |t|
     t.string   "key"
@@ -21,10 +21,10 @@ ActiveRecord::Schema.define(version: 20150301000158) do
   end
 
   create_table "fulfillments", force: true do |t|
-    t.integer  "criteria_id"
-    t.integer  "template_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "criteria_id"
+    t.integer  "templates_id"
   end
 
   create_table "tables", force: true do |t|
